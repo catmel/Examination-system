@@ -1,0 +1,61 @@
+{
+  "name": "hello-world",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "vue-cli-service serve --mode=development --open",
+    "build": "vue-cli-service build --mode=production",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "clipboard": "^2.0.4",
+    "codemirror": "^5.44.0",
+    "element-ui": "^2.4.7",
+    "es6-promise": "^4.2.5",
+    "moment": "^2.22.2",
+    "sass": "^1.17.3",
+    "sass-loader": "^7.1.0",
+    "scss": "^0.2.4",
+    "uuid": "^3.3.2",
+    "vue": "^2.5.17",
+    "vue-codemirror": "^4.0.6",
+    "vue-codemirror-lite": "^1.0.4",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.4.0",
+    "@vue/cli-plugin-eslint": "^3.4.0",
+    "@vue/cli-service": "^3.4.0",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
+    "mockjs": "^1.0.1-beta3",
+    "vue-template-compiler": "^2.5.17",
+    "compression-webpack-plugin": "^2.0.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
