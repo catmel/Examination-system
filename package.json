@@ -13,7 +13,7 @@
     "codemirror": "^5.44.0",
     "element-ui": "^2.4.7",
     "es6-promise": "^4.2.5",
-    "moment": "^2.22.2",
+    "moment": "^2.29.2",
     "sass": "^1.17.3",
     "sass-loader": "^7.1.0",
     "scss": "^0.2.4",
